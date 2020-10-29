@@ -48,7 +48,7 @@
         ctx.fillRect(0, 0, canv.width, canv.height);
 
         //paint the snake (solid, btw)
-        ctx.fillStyle = "green";
+        ctx.fillStyle = "lime";
         for (var i = 0; i < trail.length; i++) {
           //fill the trail elements
           ctx.fillRect(trail[i].x * gs, trail[i].y * gs, gs - 2, gs - 2);
@@ -75,7 +75,7 @@
         }
 
         //paint the little green bag (no, apple)
-        ctx.fillStyle = "lime";
+        ctx.fillStyle = "red";
         ctx.fillRect(ax * gs, ay * gs, gs - 2, gs - 2);
       }
 
